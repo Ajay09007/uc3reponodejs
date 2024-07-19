@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('batch825 jenkins demo! . Welcome To DevOps session. final approch is good welcome');});
+  res.send('batch825 jenkins demo! . Welcome To DevOps session. final approch is good welcome to project 3');});
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
